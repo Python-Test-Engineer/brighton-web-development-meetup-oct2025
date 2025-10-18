@@ -1,0 +1,13 @@
+[project]
+name = "brighton-web-development-meetup-oct-2025"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipython>=9.6.0",
+    "openai>=2.5.0",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.5",
+    "rich>=14.2.0",
+]
