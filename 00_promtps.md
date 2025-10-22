@@ -65,3 +65,15 @@ Article to price (Word count: {word_count}):
 TOOL RESULT: The {expected_tool} tool returned: £{tool_price}
 
 Based on this tool result, determine your final price (can be the same or adjusted within 10-90 GBP) and provide justification.
+
+## LLM as Judge
+
+ "Score as a string between '0' and '3'. "
+"0: No relevance/Not grounded/Irrelevant - The context/answer is completely unrelated or not based on the context. "
+"1: Low relevance/Low groundedness/Somewhat relevant - The context/answer has minimal relevance or grounding. "
+"2: Medium relevance/Medium groundedness/Mostly relevant - The context/answer is somewhat relevant or grounded. "
+"3: High relevance/High groundedness/Fully relevant - The context/answer is highly relevant or grounded."
+
+
+"1. Step-by-step reasoning explaining how the retrieved context aligns with the user's query. "
+"2. Consider the relevance of the information to the query's intent and the appropriateness of the context in providing a coherent and useful response."
