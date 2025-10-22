@@ -24,3 +24,7 @@ response = client.chat.completions.create(
 )
 
 print(response.choices[0].message.content)
+
+## Evals
+
+[https://evaluating-ai-agents.com/](https://evaluating-ai-agents.com/)
