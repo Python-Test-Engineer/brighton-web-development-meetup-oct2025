@@ -1,6 +1,6 @@
 # Talk at Brighton Web Development MeetUp OCT2025
 
-Make a `.env` copy of `,env.local` and add your keys there.
+Make a `.env` copy of `env.local` and add your keys there.
 
 An OpenAI is needed. A free API KEY is available with Groq and one can use the same api call but with this code:
 
@@ -28,3 +28,7 @@ print(response.choices[0].message.content)
 ## Evals
 
 [https://evaluating-ai-agents.com/](https://evaluating-ai-agents.com/)
+
+## Other talks
+
+[https://craig-west.netlify.app/#speaking](https://craig-west.netlify.app/#speaking)
